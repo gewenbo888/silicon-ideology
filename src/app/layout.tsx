@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Silicon Valley Ideological Universe · 硅谷思想宇宙" }],
     title: "Silicon Valley Ideological Universe · 硅谷思想宇宙",
     description:
       "A bilingual knowledge graph of every ideology, lineage, conflict, and belief system that shaped Silicon Valley.",
@@ -53,6 +54,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Silicon Valley Ideological Universe",
     description:
